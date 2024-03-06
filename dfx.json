@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "Saka_Social_backend": {
+      "candid": "src/Saka_Social_backend/Saka_Social_backend.did",
+      "package": "Saka_Social_backend",
+      "type": "rust"
+    },
+    "Saka_Social_frontend": {
+      "dependencies": [
+        "Saka_Social_backend"
+      ],
+      "source": [
+        "src/Saka_Social_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Saka_Social_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

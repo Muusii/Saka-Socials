@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/Saka_Social_backend"
+]
+resolver = "2"
